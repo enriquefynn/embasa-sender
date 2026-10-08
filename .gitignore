@@ -1,0 +1,16 @@
+# Secrets and local state (SMTP credentials, portal passwords, sent history)
+.env
+data/
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/

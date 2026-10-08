@@ -37,3 +37,12 @@ docker compose logs -f
 The database lives in `./data/embasa.db`. Portal passwords are stored there in
 plain text (they have to be replayed to the portal), so keep that directory private.
 Set `LOG_LEVEL=DEBUG` to log the portal's raw API responses.
+
+## License
+
+Copyright (C) 2026 Enrique Fynn
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, version 3. It is distributed WITHOUT ANY WARRANTY; see
+[LICENSE](LICENSE) for details.
